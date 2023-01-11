@@ -1,7 +1,7 @@
 import React from 'react';
 import './Zodiac.css';
 
-export default function Zodiac({ id, name, dates, top, left }) {
+export default function Zodiac({ name, dates, top, left }) {
   return (
     <div className="zodiac" style={{ top, left }}>
       <section className="z1">
